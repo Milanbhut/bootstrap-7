@@ -1,0 +1,161 @@
+/* -------------- Fonts ---------------
+
+font-family: 'Dancing Script';
+font-family: 'Oswald';
+font-family: 'Roboto Mono';
+
+---------------------------------------*/
+:root{
+    --brown: #481d08;
+    --white: #FFF;
+}
+
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    transition: all 0.5s;
+}
+body{
+    margin: 0;
+    font-family: 'Roboto Mono';
+}
+a{
+    text-decoration: none;
+}
+input:focus{
+    outline: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin-top: 0;
+}
+p:last-child{
+    margin-bottom: 0;
+}
+img{
+    max-width: 100%;
+}
+.clear-fix{
+    clear: both;
+}
+.container{
+    max-width: 1140px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* =========== Column ============== */
+.col-1{
+    max-width: 8.33%;
+}
+.col-2{
+    max-width: 16.66%;
+}
+.col-3{
+    max-width: 25%;
+}
+.col-4{
+    max-width: 33.33%;
+}
+.col-5{
+    max-width: 41.66%;
+}
+.col-6{
+    max-width: 50%;
+}
+.col-7{
+    max-width: 58.33%;
+}
+.col-8{
+    max-width: 66.66%;
+}
+.col-9{
+    max-width: 75%;
+}
+.col-10{
+    max-width: 83.33%;
+}
+.col-11{
+    max-width: 91.66%;
+}
+.col-12{
+    max-width: 100%;
+}
+
+
+
+
+
+/* =========== Header ============== */
+header{
+    background-color: coral;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+}
+header .row{
+    justify-content: space-between;
+    align-items: center;
+}
+.logo a{
+    font-size: 20px;
+    color: #FFF;
+}
+nav ul{
+    list-style: none;
+}
+.drop-link{
+    display: block;
+    padding: 5px 0;
+}
+nav .navbar{
+    display: flex;
+}
+nav .navbar li{
+    margin: 0 20px;
+}
+nav .navbar li a{
+    color: #FFF;
+    display: inline-block;
+}
+.navbar li a:hover{
+    color: #000;
+}
+.nav-btn{
+    display: none;
+}
+.navbar li:first-child{
+    position: relative;
+}
+.nav-hover:hover.dropdown{
+    top: 40px;
+}
+.dropdown {
+    display: inline-block;
+    position: absolute;
+    padding: 0;
+    background-color: coral;
+    width: 120px;
+    top: 70px;
+    left: -5px;
+}
+
+
+
+.card{
+    padding: 70px 0;
+    background-color: cornflowerblue;
+}
+.card-image{
+    box-shadow: 6px 7px 10px 0 #000;
+}
+.card-main{
+    padding: 0 10px;
+}
+.card-text{
+    padding: 10px;
+    background-color: burlywood;
+}

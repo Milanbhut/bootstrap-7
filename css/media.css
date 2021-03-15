@@ -1,0 +1,49 @@
+@media screen and (max-width: 1200px){
+    
+}
+
+@media screen and (max-width: 1024px){
+
+}
+
+@media screen and (max-width: 992px){
+    .card .col-3{
+        max-width: 50%;
+    }
+    .card-main{
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .navbar{
+        flex-direction: column;
+    }
+    nav{
+        position: fixed;
+        background-color: coral;
+        width: 20%;
+        top: 10%;
+        left: -20%;
+        bottom: 0;
+    }
+    .show nav{
+        left: 0;
+    }
+    nav ul{
+        padding: 0;
+    }
+    .nav-btn{
+        display: flex;
+    }
+    .navbar li a{
+        padding: 5px 0;
+    }
+    
+}
+
+@media screen and (max-width: 576px){
+    .card .col-3{
+        max-width: 100%;
+    }
+}
